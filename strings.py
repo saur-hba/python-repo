@@ -13,6 +13,7 @@ print(course.find('of'))
 print('python' in course)
 print(course.replace('of','4'))
 
+
 name = 'Jennifer'
 print(name[1:-1])
 
