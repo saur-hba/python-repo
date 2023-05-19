@@ -1,6 +1,7 @@
 course = 'tutorial of python'
 
 print(course[0])
+print(len(course))
 print(course[1:])
 print(course[0:4])
 print(course[-2])
@@ -24,7 +25,7 @@ To write a multi-line string we use triple quotes
 It could be either ('''''') or
 It could be either ("""""") '''
 
-print(message)
+print(f"string guide is", message)
 
 message = """ Hii Saurabh
 To write a multi-line string we use triple quotes 
